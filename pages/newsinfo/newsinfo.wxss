@@ -1,0 +1,35 @@
+/* pages/newsifo/newsinfo.wxss */
+page{
+  background: #fff;
+  height:100%;
+}
+.newsinfo_page{
+   border-top:1px solid #e5e5e5; 
+   padding:30rpx 40rpx 0 40rpx;
+}
+.newsinfo-title{
+  display: block;
+  font-size:16px;
+  color:#333;
+  line-height:50rpx;
+  font-weight:bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp:3;
+}
+.newsinfo-time{
+  display: block;
+  font-size:12px;
+  color:#999;
+  margin-top:18rpx;
+}
+.newsinfo-content{
+  margin-top:64rpx;
+  font-size:14px;
+  line-height:50rpx;
+  color:#333;
+  text-indent:40rpx;
+
+}

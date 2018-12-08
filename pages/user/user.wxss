@@ -1,0 +1,78 @@
+/* pages/user/user.wxss */
+
+.user_header{
+  padding:40rpx;
+  height:160rpx;
+  line-height:160rpx;
+  vertical-align: middle;
+  margin-bottom:14px;
+  background-color:#fff;
+}
+.user-header-img{
+   display:inline-block;
+   width:160rpx;
+   height:160rpx;
+   border-radius:50%;
+}
+.user-header-name{
+  display: inline-block;
+  vertical-align: top;
+  font-size:16px;
+  margin-left:32rpx;
+  color:#333;
+}
+.user-right-img{
+  width:26rpx;
+  height:46rpx;
+}
+
+.user-content{
+  background-color:#fff;
+  padding-left:40rpx;
+  margin:0;
+}
+.user-content-list{
+  height:110rpx;
+  line-height:110rpx;
+  margin:0;
+  padding-right:38rpx;
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom:1px solid #e5e5e5;
+  vertical-align: middle;
+}
+.user-content-img{
+   display:inline-block;
+   width:58rpx;
+   height:68rpx;
+   vertical-align: middle;
+}
+.user-content-imge{
+   display:inline-block;
+   width:64rpx;
+   height:48rpx;
+   vertical-align: middle;
+}
+.user-content-imgp{
+   display:inline-block;
+   width:64rpx;
+   height:64rpx;
+   vertical-align: middle;
+}
+.user-content-img-right{
+  display: block;
+  width:13px;
+  height:23px;
+  margin-top:32rpx;
+}
+.list-text{
+  margin-left:30rpx;
+  font-size:14px;
+  color:#333;
+}
+.list-text-small{
+  font-size:20rpx;
+  color:#999;
+}

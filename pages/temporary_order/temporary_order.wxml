@@ -1,0 +1,19 @@
+<view>
+  <view class="orderinfo_page">
+     <view class="orderinfo-list">
+          <view class="list-item">
+             <text class="item-title">产品质量管理体系</text>
+             <text class="item-time">2018-09-12 10:00:00</text>
+          </view>
+          <text class="list-status ons">待支付</text>
+      </view>
+
+      <view class="orderinfo-list">
+          <view class="list-item">
+             <text class="item-title">产品质量管理体系</text>
+             <text class="item-time">2018-09-12 10:00:00</text>
+          </view>
+          <text class="list-status ons">待支付</text>
+      </view>
+  </view>
+</view>

@@ -1,0 +1,53 @@
+/* pages/login/login.wxss */
+page{
+  background:#fff;
+}
+.login-logo{
+  text-align: center;
+  margin-top:110rpx;
+  margin-bottom:124rpx;
+}
+.login-logoimg{
+  width:614rpx;
+  height:184rpx;
+}
+
+.login-form{
+  text-align: center;
+
+}
+.section{
+  text-align: left;
+  margin: 0 auto 30rpx auto;
+  width:634rpx;
+  height:88rpx;
+  background:#f3f7fa;
+  border-radius:50rpx;
+  line-height:88rpx;
+
+}
+.login-userimg{
+  display: inline-block;
+  width:46rpx;
+  height:60rpx;
+  margin:-5rpx 50rpx 0 50rpx;
+  vertical-align: middle;
+}
+.login-input{
+  display: inline-block;
+  color:#333;
+  vertical-align: middle;
+}
+.section-submit{
+  margin-top:148rpx;
+  text-align: center;
+}
+.login-btn{
+  width:634rpx;
+  height:88rpx;
+  line-height:88rpx;
+  color:#fff;
+  font-size:16px;
+  border-radius: 50rpx;
+  background:#125fa3;
+}

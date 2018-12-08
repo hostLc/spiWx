@@ -1,0 +1,242 @@
+/* pages/home/home.wxss */
+page{
+  background-color:#f6f6f6;
+  width:100%;
+}
+.banner-swiper{
+  width:100%;
+  overflow: hidden;
+  height:400rpx;
+}
+
+.banner-img{
+  width:100%;
+}
+.padding{
+  padding:0 40rpx; 
+}
+.margin{
+  margin:0 40rpx;
+
+}
+.summory{
+  background-color:#fff;
+  padding-bottom:40rpx;
+  overflow: hidden;
+}
+.summory-title{ 
+  height:108rpx;
+  line-height:108rpx;
+  margin-left:40rpx;
+  color:#333333;
+  font-size:16px;
+  overflow: hidden;
+  border-bottom:1px solid #e5e5e5;
+}
+.summory-right-img{
+  float:right;
+  display:block;
+  margin-top:30rpx;
+  margin-right:40rpx;
+  width:26rpx;height:46rpx;
+}
+.summory-content{
+  display:block;
+  padding:0;
+  margin-top:50rpx;
+}
+.summory-info{
+  margin:0;padding:0;
+  font-size:16px;
+  line-height:24px;
+  color:#999999;
+}
+.summory-info-con{
+   margin-top:44rpx;
+}
+.summory-small{
+  font-size:14px;
+  color:#666;
+}
+.summory-ul{
+  margin-left:40rpx;margin-top:20rpx;
+}
+.summory-li{
+  position: relative;
+  font-size:16px;
+  line-height:28px;
+  color:#999;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  
+}
+.summory-li::before{
+  content: '';
+  position:absolute;
+  left:-40rpx;
+  top:24rpx;
+  width:6px;
+  height:6px;
+  border-radius:3px;
+  background:#666;
+}
+.server-type{
+  display: block;
+  margin-top:14rpx;
+  padding-bottom:52rpx;
+  background-color:#fff;
+}
+.home-title{
+  display: block;
+  height:110rpx;
+  line-height:110rpx;
+  font-size:16px;
+  color:#333;
+  margin-left:40rpx;
+  overflow: hidden;
+  border-bottom:1px solid #e5e5e5;
+}
+.server-type-content{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.server-type-info{
+  flex:1;
+  text-align: center;
+  padding-top:100rpx;
+}
+.server-type-info text{
+
+   font-size:14px;
+   color:#333; 
+}
+.imgs{
+  display: block;
+  margin:auto;
+  margin-bottom:20rpx;
+}
+/* .server-gong-img{
+  width:84rpx;
+  height:98rpx;
+}
+.server-chan-img{
+  width:96rpx;
+  height:96rpx;
+  margin-bottom:22rpx
+}
+.server-zi-img{
+  width:80rpx;
+  height:98rpx;
+}
+.server-ce-img{
+  width:100rpx;
+  height:98rpx;
+} */
+
+.server-gong-img{
+    width:68rpx;
+    height:80rpx;
+}
+.server-chan-img{
+  width:78rpx;
+  height:78rpx;
+  margin-bottom:22rpx
+}
+.server-zi-img{
+  width:64rpx;
+  height:80rpx;
+}
+.server-ce-img{
+  width:80rpx;
+  height:80rpx;
+ }
+
+.cooperative{
+  margin-top:14px;
+  background-color:#fff;
+  padding-bottom:52rpx;
+  overflow: hidden;
+
+}
+.cooperative-img{
+   width:90%;
+   max-height:486rpx;
+   height:258rpx;
+   overflow: hidden;
+   text-align:center;
+   margin:20px auto 0 auto !important;
+}
+/* .backimg{
+  width:100%;
+  background-image:url(../../../static/images/huopang.png) no-repeat;
+  background-size:100%;
+} */
+.huobanimg{
+  width:100%;
+  height:100%;
+  overflow: hidden;
+}
+
+.aboust{
+  margin-top:14px;
+  background-color:#fff;
+  padding-bottom:52rpx;
+}
+.aboust_con{
+  margin-top:50rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.aboust_phone text{
+  display: block;
+}
+.kefu_phone{
+  line-height:28px;
+  font-size:16px;
+  color:#666;
+}
+.kefu_time{
+  margin-top:3px;
+  line-height:24px;
+  font-size:14px;
+  color:#333;
+}
+.phone_img{
+  width:66rpx;
+  height:66rpx;
+  margin-top:10px;
+}
+@media all and (min-width:320px){
+.server-gong-img{
+    width:68rpx;
+    height:80rpx;
+}
+.server-chan-img{
+  width:78rpx;
+  height:78rpx;
+  margin-bottom:22rpx
+}
+.server-zi-img{
+  width:64rpx;
+  height:80rpx;
+}
+.server-ce-img{
+  width:80rpx;
+  height:80rpx;
+ }
+}
+@media all and (min-width:414px){
+   .cooperative-img{
+     width:90%;
+     height:396rpx;
+     overflow: hidden;
+     text-align:center;
+     margin:20px auto 0 auto!important;
+   }
+   
+}

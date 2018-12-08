@@ -1,0 +1,23 @@
+<!--pages/login/login.wxml-->
+<view>
+    <view class="login-logo">
+      <image src="../../static/images/logo.png" class="login-logoimg" />
+    </view>
+    <view class="login-form">
+        <form>
+           <view class="section">
+              <image src="../../static/images/user.png" class="login-userimg"></image>
+              <input name="input" placeholder="用户名" class="login-input"  placeholder-style="color:#bbb;" />
+           </view>
+           <view class="section">
+              <image src="../../static/images/password.png" class="login-userimg"></image>
+              <input name="input" placeholder="密码" class="login-input"  placeholder-style="color:#bbb;" />
+           </view>
+           <view class="section-submit">
+              <button class="login-btn" bindtap='loginclick'>登录</button>
+           </view>
+        </form>
+    </view>
+
+    <tabnavcomponent tabnavcreate="{{tabnavcreate}}"></tabnavcomponent>
+</view>

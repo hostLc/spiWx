@@ -1,0 +1,23 @@
+<!--pages/news/news.wxml-->
+<view>
+  <view class="news_page" >
+    <view class="news-list" bindtap='newsinfoclick' data-messageid='{{itemName.ID}}' wx:for="{{messageArray}}" wx:for-index="idx" wx:for-item="itemName">
+      <view class="news-list-item">
+         <text wx:if="{{itemName.IsRead>0}}" class='news-title'>{{itemName.Title}}</text>
+          <text wx:else class='news-title notitle'>{{itemName.Title}}</text> 
+       
+        <view class="news-content">
+          {{itemName.SubTitle}}
+        </view>
+      </view>
+      <view class="news-time">
+        {{itemName.CreateTime}}
+      </view>
+    </view>
+    
+  </view>
+  <view class="news_data">
+     没有更多啦
+  </view>
+  <tabnavcomponent tabnavuser="{{tabnavuser}}"></tabnavcomponent>
+</view>

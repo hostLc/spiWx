@@ -1,0 +1,43 @@
+/* pages/tabnav/nav_component.wxss */
+.tabnav{
+  position: fixed;
+  width:100%;
+  height:82rpx;
+  bottom:0;
+  z-index:99999;
+  padding:8px 0;
+  font-size:14px;
+  border-top:1rpx solid #cccccc;
+  background:#fff;
+}
+.nav_flex{
+  display:flex;
+  flex-direction: row;
+  flex-grow: nowrap;
+  justify-content: space-around;
+  text-align:center;
+}
+.home_icon{
+  width:42rpx;
+  height:42rpx;
+}
+.create_icon{
+  width:36rpx;
+  height:42rpx;
+}
+.user_icon{
+  width:32rpx;
+  height:42rpx;
+}
+.nav_font{
+  color:#bbbbbb;
+}
+.nav_font_active{
+  color:#125fa3;
+}
+
+.nav_font_img{
+  width:80rpx;
+  height:80rpx;
+  background-size:100%;
+}

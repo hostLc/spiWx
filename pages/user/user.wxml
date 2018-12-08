@@ -1,0 +1,33 @@
+<!--pages/user/user.wxml-->
+<view class="user_page">
+   <view class="user_header">
+          <image src="{{avatarUrl}}" class="user-header-img" />
+          <text class="user-header-name">{{nickname}}</text>
+   </view>
+   <view class="user-content">
+       <view class="user-content-list" bindtap='orderclick'>
+          <view class="list-left">
+             <image src="../../static/images/user_info.png" class="user-content-img" />   
+             <text class="list-text">我的订单</text>
+          </view>
+          <image src="../../static/images/user_right.png" class="user-content-img-right" />
+       </view>
+       <view class="user-content-list" bindtap='newsclick'>
+          <view class="list-left">
+             <image src="../../static/images/user_email.png" class="user-content-imge" />   
+             <text class="list-text">我的消息</text>
+          </view>
+          <image src="../../static/images/user_right.png" class="user-content-img-right" />
+       </view>
+       <view class="user-content-list">
+          <view class="list-left">
+             <image src="../../static/images/user_phone.png" class="user-content-imgp" />   
+             <text class="list-text">客服电话 82635478</text>
+             <text class="list-text-small">(周一至周五9:00-18:00)</text>
+          </view>
+         
+       </view>
+   </view>
+    <tabnavcomponent tabnavuser="{{tabnavuser}}" ></tabnavcomponent> 
+   
+</view>

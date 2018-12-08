@@ -1,0 +1,77 @@
+<!--pages/home/home.wxml-->
+<view>
+   <view>
+      <swiper class="banner-swiper">
+        <swiper-item>
+             <image src="../../static/images/banner.png" class="banner-img" />         
+        </swiper-item>
+        <swiper-item>
+            <image src="../../static/images/banner.png" class="banner-img" />
+        </swiper-item>
+        <swiper-item>
+            <image src="../../static/images/banner.png" class="banner-img" />
+        </swiper-item>
+    </swiper>
+   </view>
+   <view class="summory">
+       <view class="summory-title">
+           <text>日昇简介</text>
+           <image src="../../static/images/right-down.png" class="summory-right-img" />
+       </view>
+       <view class="margin summory-content">
+          <view class="summory-info">
+             SunplusInspection 在香港成立，为中国的进口商提供工厂审核和产品检验服务凭借对西方市场和质量要求的充分了解，我们充分了解客户在准确性和质量方面的需求。
+          </view>
+          <view class="summory-info-con">
+             <text class="summory-small">我们的优势</text>
+             <view class="summory-ul">
+                <rich-text type="li" class="summory-li">服务世界范围内</rich-text>
+                <rich-text type="li" class="summory-li">当天可达</rich-text>
+                <rich-text type="li" class="summory-li">"一分钟"线上下单</rich-text>
+                <rich-text type="li" class="summory-li">12小时提前免费取消</rich-text>
+                <rich-text type="li" class="summory-li">客户报表分析</rich-text>
+             </view>
+          </view>
+       </view>
+   </view>
+   <view class="server-type">
+      <text class="home-title">服务类型</text>
+      <view class="server-type-content margin">
+          <view class="server-type-info">
+             <image src="../../static/images/goyinshang.png" class="server-gong-img imgs" />
+             <text>供应商审核</text>
+          </view>
+          <view class="server-type-info">
+             <image src="../../static/images/changping.png" class="server-chan-img imgs" />
+             <text>产品检验</text>
+          </view>
+          <view class="server-type-info">
+             <image src="../../static/images/zixiu.png" class="server-zi-img imgs" />
+             <text>认证咨询</text>
+          </view>
+          <view class="server-type-info">
+             <image src="../../static/images/censi.png" class="server-ce-img imgs" />
+             <text>测试</text>
+          </view>
+      </view>
+   </view>
+   <view class="cooperative">
+      <text class="home-title">合作伙伴</text>
+       <view class="margin cooperative-img">
+           <image src="../../static/images/huopang.png" class="huobanimg" />
+       </view>
+   </view>
+   <view class="aboust">
+      <text class="home-title">联系我们</text>
+      <view class="margin aboust_con">
+         <view class="aboust_phone">
+            <text class="kefu_phone">客服电话</text>
+            <text class="kefu_time">周一至周五:9:00-16:00</text>
+         </view>
+         <view class="aboust_phone_img">
+            <image src="../../static/images/phone.png" class="phone_img" />
+         </view>
+      </view>
+   </view>
+   <tabnavcomponent tabnavhome="{{tabnavhome}}"></tabnavcomponent>
+</view>

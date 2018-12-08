@@ -1,0 +1,11 @@
+<!--pages/order/order.wxml-->
+<view>
+   <view class="order-banner">
+     <image src="../../static/images/order.png" class="order-img" />
+     <text class="order-text">登陆后就可以创建订单了</text>
+   </view>
+   <view class="order-login">
+     <button class="login-button" bindtap="orderloginclick">登陆</button>
+   </view>
+   <tabnavcomponent tabnavcreate="{{tabnavcreate}}"></tabnavcomponent>
+</view>

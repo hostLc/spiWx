@@ -1,0 +1,14 @@
+<view>
+  <view class="orderinfo_page">
+     <view class="orderinfo-list" bindtap='orderinfoclick' data-id='{{itemName.ID}}' data-orderid='{{itemName.OrderID}}' wx:for="{{orderArray}}" wx:for-index="idx" wx:for-item="itemName" wx:key="orderinfo">
+          <view class="list-item">         
+             <text class="item-title">{{itemName.Product}}</text>
+             <text class="item-time">{{itemName.CreateTime}}</text>
+          </view>
+           <text wx:if="{{itemName.Status == 0}}" class="list-status ons" >待审核</text>
+           <text wx:if="{{itemName.Status == 1}}" class="list-status ons" >已完成</text>
+           <text wx:if="{{itemName.Status == 2}}" class="list-status ons" >待支付</text>
+           <text wx:if="{{itemName.Status == 3}}" class="list-status ons" >已取消</text>
+      </view>   
+  </view> 
+</view>

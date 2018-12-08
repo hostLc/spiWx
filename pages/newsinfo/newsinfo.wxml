@@ -1,0 +1,12 @@
+<!--pages/newsinfo/newsinfo.wxml-->
+<view class="newsinfo_page">
+  <text class="newsinfo-title">
+      {{message.Title}}
+    </text>
+  <text class="newsinfo-time">{{message.CreateTime}}</text>
+  <view class="newsinfo-content">
+   {{message.Content}}
+  </view>
+
+  <tabnavcomponent tabnavuser="{{tabnavuser}}"></tabnavcomponent>
+</view>

@@ -1,0 +1,18 @@
+<!--pages/tabnav/nav_component.wxml-->
+<view class="tabnav">
+   <view class="nav_flex">
+      <view class="nav_flex_view" bindtap='homeclick'>
+         <image src="{{tabnavhome?'../../static/images/public/home_ok.png':'../../static/images/public/home_not.png'}}"  class="home_icon"></image>
+         <view class="{{tabnavhome?'nav_font_active':'nav_font'}}">首页</view>
+      </view>
+      <view class="nav_flex_view" bindtap='createclick'>
+         <image src="{{tabnavcreate?'../../static/images/public/create_order_ok.png':'../../static/images/public/create_order_not.png'}}"  class="create_icon"></image>
+         <view class="{{tabnavcreate?'nav_font_active':'nav_font'}}">创建订单</view>
+      </view>
+      <view class="nav_flex_view" bindtap='userclick'>
+        
+          <image src="{{tabnavuser?'../../static/images/public/user_ok.png':'../../static/images/public/user_not.png'}}"  class="user_icon"></image>
+         <view class="{{tabnavuser?'nav_font_active':'nav_font'}}" >我的</view>
+      </view> 
+   </view>
+</view>

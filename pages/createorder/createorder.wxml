@@ -1,0 +1,61 @@
+<!-- 提示警告! -->
+<view class='wran-tips' style='{{displayWarn}}'>
+   <text>{{warnInfo}}</text>
+  </view>
+
+<view style="width:100%;">
+  <view class="header"></view>
+  <form class="form" bindsubmit='formSubmit'>
+    <view class="form-section">
+        <view class="section">
+           <view class="section-label">客户名字</view>
+           <input name="Customer" placeholder='请输入客户名字' placeholder-style="color:#bbb;" class="section-input" />
+        </view>
+        <view class="section">
+           <view class="section-label">联系电话</view>
+           <input name="Phone" placeholder='请输入联系电话' placeholder-style="color:#bbb;" class="section-input" />
+        </view>
+        <view class="section">
+           <view class="section-label">邮箱</view>
+           <input type="input" name="Email" placeholder='请输入邮箱' placeholder-style="color:#bbb;" class="section-input" />
+        </view>
+    </view>
+
+     <view class="form-section-info">
+        <view class="section">
+           <view class="section-label">供应商名称</view>
+           <input name="Supplier" placeholder='请输入供应商名称' placeholder-style="color:#bbb;" class="section-input" />
+        </view>
+        <view class="section">
+           <view class="section-label">联系电话</view>
+           <input name="SupplierPhone" placeholder='请输入联系电话' placeholder-style="color:#bbb;" class="section-input" />
+        </view>
+        <view class="section">
+           <view class="section-label">联系地址</view>
+           <textarea name="SupplierAddress" placeholder='请输入联系地址' placeholder-style="color:#bbb" class="section-textarea_input">
+           </textarea>
+        </view>
+    </view>
+
+    <view class="form-section-info">
+        <view class="section">
+           <view class="section-label">产品信息</view>
+           <input name="Product" placeholder='请输入产品信息' placeholder-style="color:#bbb;" class="section-input" />
+        </view>
+        <view class="section">
+           <view class="section-label">产品数量</view>
+           <input type='number' name="Nunber" placeholder='请输入产品数量' placeholder-style="color:#bbb;" class="section-input" />
+        </view>
+        <view class="section">
+           <view class="section-label">款数(￥)</view>
+           <input type='number' name="Design" placeholder='请输入款数' placeholder-style="color:#bbb;" class="section-input" />
+        </view>
+    </view>
+
+    <view class="createOrder-submit">
+       <button class="createOrder-btn"form-type="submit">确认</button>
+    </view>
+    
+  </form>
+  <tabnavcomponent tabnavcreate="{{tabnavcreate}}"></tabnavcomponent>
+</view>
